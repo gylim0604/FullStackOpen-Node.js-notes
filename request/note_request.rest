@@ -1,0 +1,14 @@
+GET http://localhost:3001/api/notes/
+
+###
+GET http://localhost:3001/api/notes/61fa134797c74d37dc5d493a
+
+###
+POST http://localhost:3001/api/notes
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI2MjA5MWQ4ODJkODQ5ZjBmZGExNjdlODAiLCJpYXQiOjE2NDQ3NjQ4NDV9.cYW8nAT5n7Zrd6xmMkPkC8kwdPIazAJ3U
+
+{
+    "content": "this is the second note with a user id",
+    "important": "true"
+}
