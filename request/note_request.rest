@@ -6,7 +6,7 @@ GET http://localhost:3001/api/notes/61fa134797c74d37dc5d493a
 ###
 POST http://localhost:3001/api/notes
 content-type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI2MjA5MWQ4ODJkODQ5ZjBmZGExNjdlODAiLCJpYXQiOjE2NDQ3NjQ4NDV9.cYW8nAT5n7Zrd6xmMkPkC8kwdPIazAJ3U
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI2MjA5MWQ4ODJkODQ5ZjBmZGExNjdlODAiLCJpYXQiOjE2NDQ5MzQ4MjQsImV4cCI6MTY0NDkzODQyNH0.kYQHjFyFbtLT0oJzI-uQxY3eaBQ6d8RQxyf_wnIwxxA
 
 {
     "content": "this is the second note with a user id",
